@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Bebas Neue', 'Anton', Impact, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+
+  /* Dark tones sampled to match the iOS (Liquid Glass) system palette
+     rather than pure #000 — softer, layered near-blacks. */
+  --ls-ink: #1c1c1e;      /* primary dark surface (navbar, buttons) */
+  --ls-ink-800: #2c2c2e;  /* elevated dark surface */
+  --ls-ink-700: #3a3a3c;  /* borders / hover on dark */
+  --ls-grey-500: #8e8e93; /* muted text */
+  --ls-grey-300: #c7c7cc; /* hairlines */
+  --ls-grey-100: #f2f2f7; /* light surface */
+}
+
+body {
+  font-family: var(--font-body);
+}
